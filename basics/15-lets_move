@@ -1,9 +1,2 @@
 #!/bin/bash
-shopt -s nullglob
-files=([A-Z]*)
-if [[ ${#files[@]} -gt 0 ]]; then
-  mv [A-Z]* /tmp/u/
-  echo "Fichiers déplacés vers /tmp/u/"
-else
-  echo "Aucun fichier à déplacer."
-fi
+mv /root/holbertonschool-shell/basics/[A-Z]* /tmp/u/ 2>/dev/null
