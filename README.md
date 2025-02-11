@@ -1,2 +1,5 @@
 # Holberton School Shell Project
-This repository contains shell scripts for learning basic shell navigation and commands.
+Ce dépôt contient les scripts pour les projets Shell.
+
+Mise à jour.
+
