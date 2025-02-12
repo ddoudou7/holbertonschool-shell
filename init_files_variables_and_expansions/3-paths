@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Split the PATH variable using ':' as delimiter and count the number of elements
+count=$(echo $PATH | tr ':' '\n' | grep -c .)
+
+# Print the count of directories
+echo $count
