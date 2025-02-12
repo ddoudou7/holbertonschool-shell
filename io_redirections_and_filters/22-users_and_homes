@@ -1,2 +1,3 @@
 #!/bin/bash
-awk -F: '{ print $1 ":" $6 }' /etc/passwd | sort
+# Utilise awk pour extraire le nom d'utilisateur et le répertoire, puis tri les résultats
+awk -F: '{print $1 ":" $6}' /etc/passwd | sort
